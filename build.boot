@@ -13,10 +13,10 @@
  '[degree9.boot-exec   :as ex])
 
 (task-options!
-  pom    {:project 'degree9/boot-exec
+  pom    {:project 'mkarp/degree9-boot-exec
           :description "Boot-clj external process execution using Apache Commons Exec."
-          :url         "https://github.com/degree9/boot-exec"
-          :scm         {:url "https://github.com/degree9/boot-exec"}}
+          :url         "https://github.com/mkarp/degree9-boot-exec"
+          :scm         {:url "https://github.com/mkarp/degree9-boot-exec"}}
   target {:dir #{"target"}})
 
 (deftask develop
